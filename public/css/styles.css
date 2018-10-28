@@ -1,0 +1,132 @@
+html, body {
+  height: 100%;
+}
+
+.nav-style {
+  background: linear-gradient(#98D4FF, #e3f2fd);
+}
+
+.nav-logo {
+  max-height: 36px;
+}
+
+.nav-username {
+  margin-right: 10px;
+}
+
+.navbar-icon {
+  font-size: 26px;
+}
+
+.sidebar-container {
+  height: 100%;
+  width: 250px;
+  background: linear-gradient(90deg, #d0d0d0, #FFF);
+}
+
+.sidebar-container button {
+  width: 160px;
+}
+
+.sidebar-container div {
+  width: 160px;
+}
+
+.sidebar-container > * {
+  margin-bottom: 20px;
+}
+
+table.table.table-sm {
+  margin-bottom: 0;
+}
+
+td a {
+  text-decoration: none;
+}
+
+td a:hover {
+
+}
+
+.content-container {
+  margin: 80px auto 20px;
+  width: 80%;
+}
+
+.repo-card {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.repo-table {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.table-dates {
+  color: #fff;
+  background-color: #073763;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.table-inv-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0b5394;
+}
+
+.table-acc-no {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3d85c6;
+}
+
+.date-input {
+  margin: 0 15px;
+}
+
+#endDate, #startDate {
+  width: 200px;
+}
+
+.contract-no {
+  color: #fff;
+  font-weight: normal;
+  background-color: #6fa8dc;
+}
+
+.repo-header-light-bg {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.repo-summary {
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+
+.collapse-table-btn {
+  color: #fff;
+}
+
+.collapse-table-btn:hover {
+  color: #000;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    width: 100%;
+
+  }
+}
